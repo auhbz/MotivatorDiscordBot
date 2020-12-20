@@ -88,11 +88,14 @@ async def on_message(message):
       await message.channel.send("I will not respond to cries for help!")
 
   if msg.startswith("$help"):
-    help_msg = "`$help` : Lists available commands\n`$list` : Returns the list of user submitted motivations\n`$add` <motivation> : Adds <motivation> to the list of motivations\n`$remove` <index> : Removes motivation at <index> of user submitted motivations\n`$motivate` : Returns a random quote from zenquotes\n\n**Responding**: By default I will respond to messages containing flagged words like \"sad\" with something nice (motivations)\n`$responding` true/listen : Turns on responding\n`$responding` false/stop : Turns off responding\n\n**Hard-coded motivations** : {0}\n**Flagged words** : {1}".format(starting_motivations, help_flags)
+    help_msg = "`$help` : Lists available commands\n`$list` : Returns the list of user submitted motivations\n`$add` <motivation> : Adds <motivation> to the list of motivations\n`$remove` <index> : Removes motivation at <index> of user submitted motivations\n`$motivate` : Returns a random quote from zenquotes\n\n**Responding**: By default I will respond to messages containing flagged words like \"sad\" with something nice (motivations)\n`$responding` true/listen : Turns on responding\n`$responding` false/stop : Turns off responding\n\n**Hard-coded motivations** : {0}\n**Flagged words** : {1}\n\n`$invite` : Returns the invite link used to add me to other servers!".format(starting_motivations, help_flags)
     embed = discord.Embed(color = 0x00ff00)
     embed.title = "Help"
     embed.description = help_msg
     await message.channel.send(embed=embed)
+  
+  if msg.startswith("$invite"):
+    await message.channel.send("https://discord.com/api/oauth2/authorize?client_id=790114439138508811&permissions=519232&scope=bot")
 
 keep_alive()
 client.run(os.getenv('TOKEN'))
