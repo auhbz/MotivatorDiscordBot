@@ -6,7 +6,7 @@ It will also pull a random quote from the zenquotes api when prompted with the `
 
 A few examples:
 
-![test](images/screenshot1.png)
+![](images/screenshot1.png)
 
 
 ![](images/screenshot2.png)
@@ -17,4 +17,14 @@ A few examples:
 
 ![](images/screenshot4.png)
 
-Users will also be able to manage their own list of motivating messages which the bot will use in conjunction with the hardcoded list.
+The 'flagged words' responses can be toggled on and off by the user with the `$responding` command.
+
+![](images/screenshot5.png)
+
+Users can also manage a list of motivating messages which the bot will use in conjunction with the hardcoded list.
+
+![](images/screenshot6.png)
+
+Finally, here is the `$help` command which lists out all available commands
+
+![](images/screenshot7.png)
