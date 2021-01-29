@@ -1,5 +1,4 @@
 # MotivatorDiscordBot
-Discord bot made using the freeCodeCamp.org tutorial posted to YouTube on December 15, 2020.
 
 The bot responds to words flagged as cries for help.
 It will also pull a random quote from the zenquotes api when prompted with the `$motivate` command.
@@ -28,3 +27,6 @@ Users can also manage a list of motivating messages which the bot will use in co
 Finally, here is the `$help` command which lists out all available commands
 
 ![](images/screenshot7.png)
+
+
+Note: For reference, I used a freecodecamp.org tutorial to do a decent amount of this.
