@@ -28,5 +28,4 @@ Finally, here is the `$help` command which lists out all available commands
 
 ![](images/screenshot7.png)
 
-
 Note: For reference, I used a freecodecamp.org tutorial to do a decent amount of this.
