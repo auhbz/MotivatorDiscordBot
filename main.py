@@ -8,7 +8,7 @@ from keep_alive import keep_alive
 
 client = discord.Client()
 
-help_flags = ["give up", "giving up", "discouraged", "sad", "lazy", "unmotivated", "depressed", "=-=", "unhappy", "miserable", "depressing"]
+help_flags = [" give up", " giving up", " discouraged", " sad", " lazy", " unmotivated", " depressed", "=-=", " unhappy", " miserable", " depressing"]
 
 starting_motivations = ["You can do it!", "Hang in there!", "Don't give up!", "You are going to be ok!"]
 
